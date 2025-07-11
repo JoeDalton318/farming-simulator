@@ -3,7 +3,7 @@ const cors = require("cors");
 const helmet = require("helmet");
 const morgan = require("morgan");
 const { sequelize } = require("./models");
-const routes = require("./routes");
+const routes = require("./controllers");
 const errorHandler = require("./middleware/errorHandler");
 const config = require("./config/config");
 

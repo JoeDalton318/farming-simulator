@@ -23,7 +23,7 @@ module.exports = (sequelize, DataTypes) => {
       defaultValue: 2,
     },
     baseValue: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.INTEGER, 
       defaultValue: 1,
     },
   });

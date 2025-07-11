@@ -12,5 +12,5 @@ module.exports = {
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
   },
-  storageCapacity: process.env.STORAGE_CAPACITY || 100000,
+  storageCapacity: 100000,
 };
